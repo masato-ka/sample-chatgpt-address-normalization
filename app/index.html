@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>住所正規化ツール</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>住所正規化ツール</h1>
+    
+    <label for="addressInput">住所を入力してください:</label><br>
+    <input type="text" id="addressInput" name="addressInput"><br>
+    
+    <button onclick="submitAddress()">送信</button>
+    <div id="loadingIndicator">処理中...</div>
+    
+    <h2>結果:</h2>
+    <div id="results"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
